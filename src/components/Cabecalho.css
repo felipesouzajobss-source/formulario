@@ -1,0 +1,9 @@
+.cabecalho {
+background: linear-gradient(135deg, var(--cor-primaria), var(--cor-primaria-escura));
+color: #fff;
+text-align: center;
+padding: 48px 16px 72px;
+}
+
+.cabecalho__titulo { margin: 0; font-size: 2rem; }
+.cabecalho__subtitulo { margin: 8px 0 0; opacity: 0.85; }

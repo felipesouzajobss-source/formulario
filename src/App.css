@@ -1,0 +1,13 @@
+.app__conteudo {
+max-width: 960px;
+margin: -40px auto 40px;
+padding: 0 16px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 24px;
+align-items: start;
+}
+
+@media (max-width: 720px) {
+.app__conteudo { grid-template-columns: 1fr; }
+}
